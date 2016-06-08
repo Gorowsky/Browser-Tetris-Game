@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>
+	<link rel = "stylesheet" href = "style.css" type = "text/css">
+    
+    <script src = "BoardRenderer.js"></script>
+    <script src = "BoardModel.js"></script>
+    <script src = "Game.js"></script>
+    <script src = "Init.js"></script>
+    <script src = "Shapes.js"></script>
+    
+</head>
+<body onload = "new InitGame()">
+    <canvas id = "mainCanvas"></canvas>
+    <div id = "score_container">
+        <span id = "title_score" class = "labels">SCORE:</span>
+        <span id = "score" class = "labels">0</span>
+    </div>
+</body>
+</html>
